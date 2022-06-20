@@ -1,7 +1,7 @@
 ARG BASE_IMAGE="bileyg/packhaus"
 ARG TAG="0.5"
 FROM ${BASE_IMAGE}:${TAG}
-LABEL project="Hangar"\
+LABEL project="Pilot-BIM"\
       version="0.5" \
       mantainer="bileyg"\
       company="Ascon Complex"
