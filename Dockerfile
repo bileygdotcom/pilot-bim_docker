@@ -1,8 +1,8 @@
 ARG BASE_IMAGE="bileyg/packhaus"
-ARG TAG="0.5"
+ARG TAG="dryweight"
 FROM ${BASE_IMAGE}:${TAG}
 LABEL project="Pilot-BIM"\
-      version="0.5" \
+      version="0.6" \
       mantainer="bileyg"\
       company="Ascon Complex"
 RUN ["mkdir","-p","/root/.wine/drive_c/ProgramData/ASCON/Pilot_Print"]
